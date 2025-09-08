@@ -25,9 +25,13 @@
     background-color: lightcoral;
     color: black;
 }
-.footer{
+/* .footer{
     background-color: lightcoral;
+    color: black;  */
+/*    
+} */
+footer{
+     background-color: lightcoral !important;
     color: black; 
-   
 }
 
