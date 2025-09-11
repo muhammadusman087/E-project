@@ -146,7 +146,7 @@ document.getElementById("Nav").innerHTML =  `
           <p><i class="fas fa-home me-3"></i>aptech metro star gate</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            muhammadusman09858@gmail.com
+            M.usman09858@gmail.com
           </p>
           <p><i class="fas fa-phone me-3"></i>  03152724554</p>
           <p><i class="fas fa-print me-3"></i>  o3276524345</p>
