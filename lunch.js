@@ -25,7 +25,7 @@ let products =[
 
 for (var i = 0; i < products.length; i++) {
             document.getElementById("repeat").innerHTML += `
-         <div class="col-md-3 mt-3">
+         <div class="col-md-4 col-lg-3 mt-3">
                 <div class="card">
                     <div class="card-body">
                         <img src="${products[i].pimg}" class="img-fluid" alt="">
