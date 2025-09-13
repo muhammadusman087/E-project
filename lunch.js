@@ -12,7 +12,7 @@ let products =[
 
 {ptitle: "Chicken Karahi with Naan", pprice: "Rs.1650", pdesc: "A spicy and aromatic chicken curry cooked in a traditional wok (karahi).Rich tomato-based gravy infused with ginger, garlic, and green chilies.Rich tomato-based gravy .", pimg: "assets/lunch3.webp" },
 
-{ptitle: "Chicken Curry", pprice: "Rs.1900", pdesc: "A classic dish featuring tender chicken simmered in a rich, spiced gravy.Flavored with traditional Indian herbs, tomatoes, and onions.A comforting and flavorful curry perfect with etc", pimg: "assets/lunch4.jpg" },
+{ptitle: "Chicken Curry", pprice: "Rs.1900", pdesc: "Chicken curry is a flavorful dish made with tender chicken simmered in a rich, spiced gravy.It blends aromatic spices like turmeric, cumin, and coriander with tomatoes and onions", pimg: "assets/lunch4.jpg" },
 
 {ptitle: "Crispy Fried Tilapia", pprice: "Rs.2000", pdesc: "Whole tilapia fish marinated with spices and deep-fried to golden perfection.Crispy on the outside, tender and juicy on the inside.A simple yet flavorful dish loved across coastal.", pimg: "assets/lunch5.jpg" },
 
