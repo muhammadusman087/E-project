@@ -11,12 +11,11 @@
 
 <body>
     <div id="Nav"></div>
-    <div class="banner d-flex justify-content-center align-items-center text-white">
-<h1>Feedback</h1>
+    <div class=" Feedback banner d-flex justify-content-center align-items-center text-white img-fluid">
+<h1>Feedback page</h1>
 
     </div>
-    <h1 class="h1 h2-sm h3-md h4-lg h5-xl text-center "
-    style="margin-top: 10px; background-color: lightcoral; color: black;">Feedback</h1>
+    <h1 class="h1 h2-sm h3-md h4-lg h5-xl text-center">Feedback</h1>
     <div class="container mt-5 mb-3">
         <div class="row g-4">
           <div class="col-12 col-md-12">
@@ -28,17 +27,18 @@
                 <form>
                   <div class="mb-3">
                     <label for="name" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" pattern="[A-Za-z]+" title="Only letters allowed">
                   </div>
     
                   <div class="mb-3">
                     <label for="phone" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control" id="phone" placeholder="03xx-xxxxxxx">
+                    <input type="tel" class="form-control" id="phone" placeholder="03xx-xxxxxxx" pattern="\d{10}" title="Enter 10 digit phone number"">
+
                   </div>
     
                   <div class="mb-3">
                     <label for="guests" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="guests" min="1" placeholder="musman@gmail.gmail">
+                    <input type="email" class="form-control" id="guests" min="1" placeholder="musman@gmail.gmail"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter valid email">
                   </div>
     
                  
