@@ -48,7 +48,7 @@ document.getElementById("Nav").innerHTML =  `
   ;
 
   document.getElementById("footer").innerHTML=`
-  <footer class="text-center text-lg-start  text-muted">
+  <footer class="text-center text-lg-start  text-white">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->

@@ -2,292 +2,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my E-project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awards | My E-Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body{
+      background-color: gray;
+    }
+    .banner9 {
+      background: url('assets/about\ us\ banner.jpg') center/cover no-repeat;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    .award-card {
+      background: #fff;
+      border: none;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .award-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .award-img {
+      height: 250px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .award-body {
+      padding: 20px;
+      background: linear-gradient(135deg, #ff7e7e, #ffb199);
+      color: #fff;
+    }
+
+    .award-body h3 {
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .award-body p {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 
 <body>
-    <div id="Nav"></div>
+  <div id="Nav"></div>
 
-<div class="banner9 d-flex justify-content-center align-items-center text-white img-fluid">
-<h1>Award page</h1>
+  <!-- Banner -->
+  <div class="banner9">
+    <h1 class="fw-bold display-4">Awards & Recognition</h1>
+  </div>
+
+  <!-- Awards Section -->
+  <div class="container my-5">
+    <div class="row g-4">
+
+      <!-- Award Card 1 -->
+      <div class="col-md-6">
+        <div class="award-card">
+          <img src="assets/awrard.jpg" class="award-img" alt="August Award">
+          <div class="award-body">
+            <h3>August 2025 Recipe Award</h3>
+            <p>We are proud to be recognized for our excellence and innovation. Over the years, we have won several
+              prestigious awards, from "Best Startup" to "UX Excellence" and beyond. These honors reflect our team’s
+              dedication and passion.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Award Card 2 -->
+      <div class="col-md-6">
+        <div class="award-card">
+          <img src="assets/award1.jpg" class="award-img" alt="September Award">
+          <div class="award-body">
+            <h3>September 2025 Award</h3>
+            <p>From customer service excellence to top performer badges, each recognition inspires us to raise our
+              standards even higher. We continue striving to deliver the best experiences to our community.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Award Card 3 -->
+      <div class="col-md-6">
+        <div class="award-card">
+          <img src="assets/award2.webp" class="award-img" alt="October Award">
+          <div class="award-body">
+            <h3>October 2025 Award</h3>
+            <p>Our innovation and creativity are celebrated globally. These recognitions showcase the dedication of our
+              talented team and their commitment to excellence.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Award Card 4 -->
+      <div class="col-md-6">
+        <div class="award-card">
+          <img src="assets/award3.webp" class="award-img" alt="November Award">
+          <div class="award-body">
+            <h3>November 2025 Award</h3>
+            <p>Through consistent quality and customer satisfaction, we have earned trust and recognition. Each award is
+              a milestone in our journey of growth and excellence.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Award Card 5 -->
+      <div class="col-md-6">
+        <div class="award-card">
+          <img src="assets/award4.webp" class="award-img" alt="December Award">
+          <div class="award-body">
+            <h3>December 2025 Award</h3>
+            <p>Our passion for delivering excellence never stops. Being honored globally motivates us to keep pushing
+              boundaries and set new benchmarks.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Award Card 6 -->
+      <div class="col-md-6">
+        <div class="award-card">
+          <img src="assets/award5.jpg" class="award-img" alt="May Award">
+          <div class="award-body">
+            <h3>May 2025 Award</h3>
+            <p>We believe in innovation and customer happiness. Awards like these encourage us to continue crafting
+              unforgettable experiences for our customers worldwide.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
 
-<h1 class="h1 h2-sm h3-md h4-lg h5-xl text-center ">Awards & Recognition </h1>
+  <div id="footer"></div>
 
-
-    <div class="container my-5">
-        <div class="row align-items-center" >
-       
-          <div class="col-md-6 pe-md-5 mb-4 mb-md-0">
-            <img src="assets/awrard.jpg" alt="Vinegar Food" class="img-fluid rounded shadow" style="width: 400px; height: 100%;">
-          </div>
-    
-       
-          <div class="col-md-6" style="background-color: lightcoral;height: 35vh;border: 2px solid black; border-radius: 20px; height: 100%;">
-            <h2 style="text-align: center; padding-bottom: 20px;">August 2025 recipe award</h2 >
-            <h2 style="text-align: center; padding-bottom: 20px;">Award</h2 >
-
-            <p> 
-                We are proud to be recognized for our excellence and innovation.
-
-Our journey has been marked by numerous prestigious awards.
-
-In 2021, we received the "Best Startup of the Year" award.
-
-The following year, we were honored for outstanding customer service.
-
-Our design team won the National UX Excellence Award in 2023.
-
-We earned the “Top Performer” badge from leading industry platforms.
-
-Our dedication to quality has been acknowledged globally.
-
-These awards reflect our team's hard work and passion.
-
-
-            
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-      
-    <div class="container my-5">
-        <div class="row align-items-center" >
-       
-          <div class="col-md-6 pe-md-5 mb-4 mb-md-0">
-            <img src="assets/award1.jpg" alt="Vinegar Food" class="img-fluid rounded shadow" style="width: 400px; height: 100%;">
-          </div>
-    
-       
-          <div class="col-md-6" style="background-color: lightcoral;height: 35vh;border: 2px solid black; border-radius: 20px; height: 100%;">
-            <h2 style="text-align: center; padding-bottom: 20px;">September 2025 award</h2 >
-            <h2 style="text-align: center; padding-bottom: 20px;">award</h2 >
-
-            <p> 
-                We are proud to be recognized for our excellence and innovation.
-
-Our journey has been marked by numerous prestigious awards.
-
-In 2021, we received the "Best Startup of the Year" award.
-
-The following year, we were honored for outstanding customer service.
-
-Our design team won the National UX Excellence Award in 2023.
-
-We earned the “Top Performer” badge from leading industry platforms.
-
-Our dedication to quality has been acknowledged globally.
-
-These awards reflect our team's hard work and passion.
-
-
-            </p>
-            
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-      
-    <div class="container my-5">
-        <div class="row align-items-center" >
-       
-          <div class="col-md-6 pe-md-5 mb-4 mb-md-0">
-            <img src="assets/award2.webp" alt="Vinegar Food" class="img-fluid rounded shadow" style="width: 400px; height: 100%;">
-          </div>
-    
-       
-          <div class="col-md-6" style="background-color: lightcoral;height: 35vh;border: 2px solid black; border-radius: 20px;height: 100%;">
-            <h2 style="text-align: center; padding-bottom: 20px;">October 2025 award</h2 >
-            <h2 style="text-align: center; padding-bottom: 20px;">award</h2 >
-
-            <p> 
-              We are proud to be recognized for our excellence and innovation.
-
-Our journey has been marked by numerous prestigious awards.
-
-In 2021, we received the "Best Startup of the Year" award.
-
-The following year, we were honored for outstanding customer service.
-
-Our design team won the National UX Excellence Award in 2023.
-
-We earned the “Top Performer” badge from leading industry platforms.
-
-Our dedication to quality has been acknowledged globally.
-
-These awards reflect our team's hard work and passion.
-
-
-            </p>
-            
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-      
-    <div class="container my-5">
-        <div class="row align-items-center" >
-       
-          <div class="col-md-6 pe-md-5 mb-4 mb-md-0">
-            <img src="assets/award3.webp" alt="Vinegar Food" class="img-fluid rounded shadow" style="width: 400px; height: 100%;">
-          </div>
-    
-       
-          <div class="col-md-6" style="background-color: lightcoral;height: 35vh;border: 2px solid black; border-radius: 20px;height: 100%;">
-            <h2 style="text-align: center; padding-bottom: 20px;">November 2025 award</h2 >
-            <h2 style="text-align: center; padding-bottom: 20px;">award</h2 >
-
-            <p> 
-                We are proud to be recognized for our excellence and innovation.
-
-Our journey has been marked by numerous prestigious awards.
-
-In 2021, we received the "Best Startup of the Year" award.
-
-The following year, we were honored for outstanding customer service.
-
-Our design team won the National UX Excellence Award in 2023.
-
-We earned the “Top Performer” badge from leading industry platforms.
-
-Our dedication to quality has been acknowledged globally.
-
-These awards reflect our team's hard work and passion.
-
-
-            </p>
-            
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-      
-    <div class="container my-5">
-        <div class="row align-items-center" >
-       
-          <div class="col-md-6 pe-md-5 mb-4 mb-md-0">
-            <img src="assets/award4.webp" alt="Vinegar Food" class="img-fluid rounded shadow" style="width: 400px; height: 100%;">
-          </div>
-    
-       
-          <div class="col-md-6" style="background-color: lightcoral;height: 35vh;border: 2px solid black; border-radius: 20px; height: 100%;">
-            <h2 style="text-align: center; padding-bottom: 20px;">december 2025 award</h2 >
-            <h2 style="text-align: center; padding-bottom: 20px;">award</h2 >
-
-            <p> 
- We are proud to be recognized for our excellence and innovation.
-
-Our journey has been marked by numerous prestigious awards.
-
-In 2021, we received the "Best Startup of the Year" award.
-
-The following year, we were honored for outstanding customer service.
-
-Our design team won the National UX Excellence Award in 2023.
-
-We earned the “Top Performer” badge from leading industry platforms.
-
-Our dedication to quality has been acknowledged globally.
-
-These awards reflect our team's hard work and passion.
-
-
-            </p>
-            
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-      
-    <div class="container my-5">
-        <div class="row align-items-center" >
-       
-          <div class="col-md-6 pe-md-5 mb-4 mb-md-0">
-            <img src="assets/award5.jpg" alt="Vinegar Food" class="img-fluid rounded shadow" style="width: 400px; height: 100%;">
-          </div>
-    
-       
-          <div class="col-md-6" style="background-color: lightcoral;height: 35vh;border: 2px solid black; border-radius: 20px; height: 100%;">
-            <h2 style="text-align: center; padding-bottom: 20px;">May 2025 award</h2 >
-            <h2 style="text-align: center; padding-bottom: 20px;">Award</h2 >
-
-            <p> 
-                We are proud to be recognized for our excellence and innovation.
-
-Our journey has been marked by numerous prestigious awards.
-
-In 2021, we received the "Best Startup of the Year" award.
-
-The following year, we were honored for outstanding customer service.
-
-Our design team won the National UX Excellence Award in 2023.
-
-We earned the “Top Performer” badge from leading industry platforms.
-
-Our dedication to quality has been acknowledged globally.
-
-These awards reflect our team's hard work and passion.
-
-
-            </p>
-            
-          </div>
-        </div>
-      </div>
-
- <div id="footer"></div>   
-
-
-
-
-
-    <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 
 </html>

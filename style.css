@@ -1,35 +1,33 @@
-.navbar{
-    height: 100px;
-    width: 100%;
-    background-color: beige;
-    color: black;
-}
-.navbar img{
-    height: 100px;
-    width: 100px;
+/* 🌐 Global Theme */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #474747;
+  color: #333;
 }
 
+h1, h2, h3 {
+  font-weight: 700;
+}
 
+/* 🌐 Navbar */
+.navbar {
+  height: 80px;
+  background: linear-gradient(90deg, #222, #444);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
 
 .navbar .nav-link {
   position: relative;
-  color: rgb(3, 0, 0) !important;
-  padding: 5px 0;
-  text-decoration: none;
+  color: white !important;
+  font-weight: 500;
+  padding: 8px 12px;
   transition: color 0.3s ease;
 }
 
@@ -38,153 +36,82 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 2px;
+  height: 3px;
   width: 0%;
-  background-color: #e7b3d7;
+  background-color: #ff6f61;
   transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ff6f61 !important;
 }
 
 .navbar .nav-link:hover::after {
   width: 100%;
 }
 
-
-
-
-
-
-
-
-
-.home{
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/feedback\ image.jpg') no-repeat center center/cover;
-}
-
-
-.banner{
+/* 🌐 Banner Section */
+.banner {
   height: 70vh;
-  width: 100%;
-  position: relative;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.432)),url(assets/banner.jpg);
 }
 
-.Feedback{
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-                url('assets/image2.avif') no-repeat center center/cover;
-}
-.recipe{
- 
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/recipe\ of\ the\ month.webp') no-repeat center center/cover;
-
-}
-.banner3{
-  height: 70vh;
-  width: 100%;
-  margin-top: 0px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/img3.avif') no-repeat center center/cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-.banner4{
-  height: 70vh;
-  width: 100%;
-  margin-top: 0px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/image.avif') no-repeat center center/cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-.banner5{
-  height: 70vh;
-  width: 100%;
-  margin-top: 0px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/banner.jpg') no-repeat center center/cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-.banner6{
-  height: 70vh;
-  width: 100%;
-  margin-top: 0px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/r.jpg') no-repeat center center/cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-.banner7{
-  height: 70vh;
-  width: 100%;
-  margin-top: 0px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/desert\ banner.webp') no-repeat center center/cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-.banner8{
-  height: 70vh;
-  width: 100%;
-  margin-top: 0px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/beverage\ banner.webp') no-repeat center center/cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-.banner9{
-  height: 70vh;
-  width: 100%;
-  margin-top: 0px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/award\ bannr.webp') no-repeat center center/cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
-.banner10{
-  height: 70vh;
-  width: 100%;
-  margin-top: 0px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
-              url('assets/gallery\ banner.webp') no-repeat center center/cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-.images{
-    border: 3px solid black;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
+/* 🌐 Cards */
 .card {
-  height: 80%;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+}
+
+.card-body h3 {
+  color: #ff6f61;
+}
+
+/* 🌐 Buttons */
+.btn-info {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #e85c50;
+  transform: scale(1.05);
+}
+
+/* 🌐 Footer */
+#footer {
+  background: #2b2a2a;
+  
+  padding: 15px;
+  text-align: center;
 }
