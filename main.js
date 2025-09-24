@@ -18,7 +18,7 @@ document.getElementById("Nav").innerHTML =  `
                             <a class="nav-link active" href="about us.html">about us</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="meals.html" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle active"   id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 meals
                             </a>
@@ -149,7 +149,7 @@ document.getElementById("Nav").innerHTML =  `
             M.usman09858@gmail.com
           </p>
           <p><i class="fas fa-phone me-3"></i>  03152724554</p>
-          <p><i class="fas fa-print me-3"></i>  o3276524345</p>
+          <p><i class="fas fa-print me-3"></i>  03276524345</p>
         </div>
         <!-- Grid column -->
       </div>
