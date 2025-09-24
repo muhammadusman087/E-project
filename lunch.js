@@ -4,21 +4,21 @@ let products =[
 
 
 
-{ptitle: "chicken dum biryani", pprice: "Rs.1500", pdesc: "Aromatic basmati rice layered with spiced, tender chicken drumsticksSlow-cooked to perfection using traditional dum cookingA royal treat bursting with flavor in every bite.", pimg: "assets/lunch2.jpg" },
+{ptitle: "chicken dum biryani", pprice: "Rs.1500", pdesc: "", pimg: "assets/lunch2.jpg" },
 
-{ptitle: "Mutton Dum Biryani", pprice: "Rs.1200", pdesc: "Tender pieces of mutton cooked to perfection with aromatic spices.Layered with long-grain basmati rice and slow-cooked in traditional dum style.A rich, flavorful biryani etc.", pimg: "assets/lunch1.jpg" },
+{ptitle: "Mutton Dum Biryani", pprice: "Rs.1200", pdesc: "", pimg: "assets/lunch1.jpg" },
 
-{ptitle: "Yakhni Pulao", pprice: "Rs.1000", pdesc: "Aromatic basmati rice simmered in rich, flavorful mutton broth (yakhni)Mildly spiced with whole garam masalas and infused with meat juices.A classic, comforting dish known for etc khan with beautifull karahi.", pimg: "assets/lunch.jpg" },
+{ptitle: "Yakhni Pulao", pprice: "Rs.1000", pdesc: "", pimg: "assets/lunch.jpg" },
 
-{ptitle: "Chicken Karahi with Naan", pprice: "Rs.1650", pdesc: "A spicy and aromatic chicken curry cooked in a traditional wok (karahi).Rich tomato-based gravy infused with ginger, garlic, and green chilies.Rich tomato-based gravy .", pimg: "assets/lunch3.webp" },
+{ptitle: "Chicken Karahi", pprice: "Rs.1650", pdesc: "", pimg: "assets/lunch3.webp" },
 
-{ptitle: "Chicken Curry", pprice: "Rs.1900", pdesc: "Chicken curry is a flavorful dish made with tender chicken simmered in a rich, spiced gravy.It blends aromatic spices like turmeric, cumin, and coriander with tomatoes and onions", pimg: "assets/lunch4.jpg" },
+{ptitle: "Chicken Curry", pprice: "Rs.1900", pdesc: "", pimg: "assets/lunch4.jpg" },
 
-{ptitle: "Crispy Fried Tilapia", pprice: "Rs.2000", pdesc: "Whole tilapia fish marinated with spices and deep-fried to golden perfection.Crispy on the outside, tender and juicy on the inside.A simple yet flavorful dish loved across coastal.", pimg: "assets/lunch5.jpg" },
+{ptitle: " Fried Tilapia", pprice: "Rs.2000", pdesc: "", pimg: "assets/lunch5.jpg" },
 
-{ptitle: "Grilled Whole Fish", pprice: "Rs.1800", pdesc: "Whole fish marinated in zesty spices and grilled to smoky perfection.Served wit.", pimg: "assets/lunch6.jpg" },
+{ptitle: " Whole Fish", pprice: "Rs.1800", pdesc: "", pimg: "assets/lunch6.jpg" },
 
-{ptitle: "Assorted Fast Food ", pprice: "Rs.1900", pdesc: "A tempting mix of burgers, fries, pizzas, donuts, cookies, and more.Perfect for snack lovers craving sweet, salty, and savory treats.The ultimate indulgent platter for parties", pimg: "assets/lunch7.jpg" }
+{ptitle: " Fast Food ", pprice: "Rs.1900", pdesc: "", pimg: "assets/lunch7.jpg" }
 
 ]
 

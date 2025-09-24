@@ -1,0 +1,144 @@
+/* Image Styling */
+.pe-md-5 img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Text Container Styling */
+.col-md-6[style] {
+  background-color: #faf5f5 !important;
+  border: none !important;
+  border-radius: 15px !important;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Headings */
+.col-md-6[style] h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0a0101;
+  text-transform: capitalize;
+}
+
+/* Paragraph Text */
+.col-md-6[style] p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #050505;
+  margin-top: 15px;
+}
+.col-md-6:hover{
+     transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+.recipe-banner{
+     height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.53);
+  background: linear-gradient(to right,rgba(0, 0, 0, 0.215)),url(assets/recipe\ of\ the\ month.webp)no-repeat center center/cover;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #474747;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+
+}
+
+/* 🌐 Navbar */
+.navbar {
+  height: 80px;
+  background: linear-gradient(90deg, #222, #444);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.h1{
+    color: white;
+    padding-top: 20px;
+}
+
+.navbar img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.navbar .nav-link {
+  position: relative;
+  color: white !important;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background-color: #ff6f61;
+  transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ff6f61 !important;
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+#footer {
+  background: #2b2a2a;
+  
+  padding: 15px;
+  text-align: center;
+}
+

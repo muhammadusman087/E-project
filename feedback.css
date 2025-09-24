@@ -1,0 +1,162 @@
+/* ===== Feedback Card Style ===== */
+.card {
+  border: none;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  padding: 25px 20px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+
+.card-header h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* ===== Form Fields ===== */
+.form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  outline: none;
+}
+
+/* ===== Textarea Styling ===== */
+textarea.form-control {
+  resize: none;
+}
+
+/* ===== Button Styling ===== */
+.btn-primary {
+  border-radius: 25px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background-color: #aebac7;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #6e777f;
+}
+
+.Feedback-banner{
+     height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.53);
+  background: linear-gradient(to right,rgba(0, 0, 0, 0.215)),url(assets/feedback\ image.jpg) no-repeat center center/cover;;
+}
+.h1{
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #474747;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+
+}
+
+/* 🌐 Navbar */
+.navbar {
+  height: 80px;
+  background: linear-gradient(90deg, #222, #444);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.navbar img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.navbar .nav-link {
+  position: relative;
+  color: white !important;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background-color: #ff6f61;
+  transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ff6f61 !important;
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+#footer {
+  background: #2b2a2a;
+  
+  padding: 15px;
+  text-align: center;
+}
+

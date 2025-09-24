@@ -1,0 +1,214 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #474747;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+
+}
+
+/* 🌐 Navbar */
+.navbar {
+  height: 80px;
+  background: linear-gradient(90deg, #222, #444);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.navbar img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.navbar .nav-link {
+  position: relative;
+  color: white !important;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background-color: #ff6f61;
+  transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ff6f61 !important;
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+#footer {
+  background: #2b2a2a;
+  
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero Section */
+.hero-section {
+    background: url('assets/catering-banner.jpg') no-repeat center center/cover no-repeat center center/cover;;
+    padding: 120px 0;
+    background-attachment: fixed;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.3rem;
+}
+
+/* Services Section */
+.services-section h2,
+.menu-section h2,
+.booking-form h2 {
+    font-weight: 700;
+    color: #333;
+}
+
+.service-box {
+    background: #c0b6b6;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.service-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-box img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Menu Section */
+.menu-section {
+    background-color: #efe8e8;
+}
+
+.menu-section h6 {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.menu-section p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* Booking Form */
+.booking-form {
+    background-color: #5e5353;
+}
+
+.booking-form input,
+.booking-form textarea {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    transition: border-color 0.2s;
+}
+
+.booking-form input:focus,
+.booking-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: none;
+}
+
+.booking-form button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 40px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.booking-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+/* Responsive Adjustments */
+/* @media (max-width: 768px) {
+    .hero-section {
+        padding: 80px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .service-box img {
+        height: 180px;
+    }
+
+    .menu-section .col-md-3 {
+        margin-bottom: 20px;
+    }
+} */
+
+.banner3{
+      height: 50vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.53);
+  background: linear-gradient(to right,rgba(0, 0, 0, 0.215)),url(assets/catering\ banner.jpg) no-repeat center center/cover;;
+}
