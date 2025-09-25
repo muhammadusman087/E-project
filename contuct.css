@@ -1,4 +1,4 @@
-/* ===== Card Styling ===== */
+
 .contact-card {
   border: none;
   border-radius: 15px;
@@ -39,18 +39,21 @@
 }
 
 .contact-card .btn-dark {
-  border-radius: 25px;
-  padding: 12px;
+  background-color: #ff6f61;
+  border: none;
+  color: white;
   font-weight: 600;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .contact-card .btn-dark:hover {
-  background-color: #000000;
+ 
+ background-color: #e85d5026;
+  color: black;
+  transform: scale(1.05);
 }
-
-/* ===== Info Boxes ===== */
 .info-box {
   background: #f8f9fa;
   padding: 25px 20px;
@@ -61,6 +64,8 @@
 
 .info-box:hover {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+   transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .info-box img {
@@ -82,53 +87,6 @@
   margin: 0;
   line-height: 1.4;
 }
-
-/* ===== Responsive Adjustments ===== */
-/* @media (max-width: 767.98px) {
-  .info-box {
-    padding: 20px 15px;
-  }
-
-  .info-box img {
-    width: 35px;
-  }
-
-  .contact-card .btn-dark {
-    font-size: 0.95rem;
-  }
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #474747;
@@ -140,7 +98,7 @@ h1, h2, h3 {
 
 }
 
-/* 🌐 Navbar */
+
 .navbar {
   height: 80px;
   background: linear-gradient(90deg, #222, #444);
@@ -187,7 +145,7 @@ h1, h2, h3 {
   text-align: center;
 }
 .contuct-banner{
-      height: 50vh;
+      height: 70vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -197,4 +155,7 @@ h1, h2, h3 {
   color: white;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.53);
   background: linear-gradient(to right,rgba(0, 0, 0, 0.215)),url(assets/feedback\ image1.jpg) no-repeat center center/cover;;
+}
+.h1{
+  color: #ffffff;
 }

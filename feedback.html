@@ -27,25 +27,25 @@
                 <form>
                   <div class="mb-3">
                     <label for="name" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="name" required placeholder="Enter your name" pattern="[A-Za-z]+" title="Only letters allowed">
+                    <input type="text" class="form-control" id="name" required placeholder="Enter your name" pattern="[A-Za-z]+" title="Only letters allowed"required>
                   </div>
     
                   <div class="mb-3">
                     <label for="phone" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control" id="phone" placeholder="03xx-xxxxxxx" pattern="\d{10}" title="Enter 10 digit phone number"">
+                    <input type="tel" class="form-control" id="phone" placeholder="03xx-xxxxxxx" pattern="\d{10}" title="Enter 10 digit phone number"required>
 
                   </div>
     
                   <div class="mb-3">
                     <label for="guests" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="guests" min="1" placeholder="musman@gmail.gmail"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter valid email">
+                    <input type="email" class="form-control" id="guests" min="1" placeholder="musman@gmail.gmail"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter valid email"required>
                   </div>
     
                  
     
                   <div class="mb-3">
                     <label for="requests" class="form-label">Feedback</label>
-                    <textarea class="form-control" id="requests" rows="3" placeholder="your messege"></textarea>
+                    <textarea class="form-control" id="requests" rows="3" placeholder="your messege"required></textarea>
                   </div>
     
                   <button type="submit" class="btn btn-primary w-100">submit</button>

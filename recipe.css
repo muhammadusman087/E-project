@@ -1,4 +1,4 @@
-/* Image Styling */
+
 .pe-md-5 img {
   width: 100%;
   max-height: 350px;
@@ -7,7 +7,6 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Text Container Styling */
 .col-md-6[style] {
   background-color: #faf5f5 !important;
   border: none !important;
@@ -19,7 +18,7 @@
       transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Headings */
+
 .col-md-6[style] h2 {
   text-align: center;
   font-weight: bold;
@@ -28,7 +27,7 @@
   text-transform: capitalize;
 }
 
-/* Paragraph Text */
+
 .col-md-6[style] p {
   font-size: 1rem;
   line-height: 1.6;
@@ -53,33 +52,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #474747;
@@ -91,7 +63,7 @@ h1, h2, h3 {
 
 }
 
-/* 🌐 Navbar */
+
 .navbar {
   height: 80px;
   background: linear-gradient(90deg, #222, #444);

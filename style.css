@@ -1,21 +1,20 @@
-/* 🌐 Global Theme */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #474747;
   color: #333;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 700;
-
 }
 
-/* 🌐 Navbar */
 .navbar {
   height: 80px;
   background: linear-gradient(90deg, #222, #444);
   color: white;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .navbar img {
@@ -51,9 +50,8 @@ h1, h2, h3 {
   width: 100%;
 }
 
-/* 🌐 Banner Section */
 .banner {
-   height: 70vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -62,33 +60,24 @@ h1, h2, h3 {
   text-align: center;
   color: white;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.53);
-  background: linear-gradient(to right,rgba(0, 0, 0, 0.215)),url(assets/image2.avif)no-repeat center center/cover;;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.215)), url(assets/image2.avif)no-repeat center center/cover;
+  ;
 }
 
-/* 🌐 Cards */
 .card {
   height: 100%;
   border: none;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover{
+.card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
-
-  /* background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: rgb(14, 9, 9);
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.53); */
-  /* background: linear-gradient(to right,rgba(0, 0, 0, 0.215)),url(assets/image2.avif); */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
+
 .card img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -103,7 +92,6 @@ h1, h2, h3 {
   color: #ff6f61;
 }
 
-/* 🌐 Buttons */
 .btn-info {
   background-color: #ff6f61;
   border: none;
@@ -119,14 +107,13 @@ h1, h2, h3 {
   transform: scale(1.05);
 }
 
-/* 🌐 Footer */
 #footer {
   background: #2b2a2a;
-  
   padding: 15px;
   text-align: center;
 }
-.h1{
+
+.h1 {
   color: white;
   margin-top: 40px;
 }

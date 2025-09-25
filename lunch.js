@@ -1,9 +1,6 @@
 let products =[
 
 
-
-
-
 {ptitle: "chicken dum biryani", pprice: "Rs.1500", pdesc: "", pimg: "assets/lunch2.jpg" },
 
 {ptitle: "Mutton Dum Biryani", pprice: "Rs.1200", pdesc: "", pimg: "assets/lunch1.jpg" },
@@ -40,11 +37,5 @@ for (var i = 0; i < products.length; i++) {
                 
             </div>
          `
-
-
-
-
-
-
 
         }

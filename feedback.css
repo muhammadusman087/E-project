@@ -1,4 +1,4 @@
-/* ===== Feedback Card Style ===== */
+
 .card {
   border: none;
   border-radius: 15px;
@@ -26,7 +26,7 @@
   color: #333;
 }
 
-/* ===== Form Fields ===== */
+
 .form-label {
   font-weight: 600;
   color: #333;
@@ -46,25 +46,29 @@
   outline: none;
 }
 
-/* ===== Textarea Styling ===== */
+
 textarea.form-control {
   resize: none;
 }
 
-/* ===== Button Styling ===== */
+
 .btn-primary {
-  border-radius: 25px;
-  padding: 12px;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  background-color: #aebac7;
+ background-color: #ff6f61;
   border: none;
+  color: white;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+
 .btn-primary:hover {
-  background-color: #6e777f;
+   background-color: #e85d5026;
+  color: black;
+  transform: scale(1.05);
 }
+
 
 .Feedback-banner{
      height: 70vh;
@@ -82,26 +86,6 @@ textarea.form-control {
     color: white;
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #474747;
@@ -113,7 +97,7 @@ h1, h2, h3 {
 
 }
 
-/* 🌐 Navbar */
+
 .navbar {
   height: 80px;
   background: linear-gradient(90deg, #222, #444);
