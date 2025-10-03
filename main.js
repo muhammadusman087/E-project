@@ -39,6 +39,7 @@ document.getElementById("Nav").innerHTML =  `
                         <a class="nav-link active" href="recipe of the month.html">recipe of the month</a>
                         <a class="nav-link active" href="contuct us.html">contact us</a>
                         <a class="nav-link active" href="feedback.html">feedback</a>
+                         <a class="nav-link active" href="site map.html">site map</a>
                     </ul>
     
                 </div>
@@ -135,6 +136,9 @@ document.getElementById("Nav").innerHTML =  `
           </p>
           <p>
             <a href="feedback.html" class="text-reset">feedback</a>
+          </p>
+           <p>
+            <a href="site map.html" class="text-reset">site map</a>
           </p>
         </div>
         <!-- Grid column -->
